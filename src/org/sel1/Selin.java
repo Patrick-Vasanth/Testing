@@ -224,21 +224,37 @@ public class Selin {
 //		a.click(findElement2).perform();
 		
 		
-		driver.get("http://greenstech.in/selenium-course-content.html");
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		Actions a = new Actions(driver);
+//		driver.get("http://greenstech.in/selenium-course-content.html");
+//		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+//		Actions a = new Actions(driver);
+//		
+//		WebElement findElement = driver.findElement(By.xpath("//div[@title='Courses']"));
+//		
+//		a.moveToElement(findElement).perform();
+//		
+//		
+//		WebElement findElement2 = driver.findElement(By.xpath("//div[@title='Software Testing']"));
+//		
+//		a.moveToElement(findElement2).perform();
+//		
+//		WebElement findElement3 = driver.findElement(By.xpath("//span[contains(text(),'Selenium Certification')]"));
+//		
+//		a.click(findElement3).perform();
+//		
+////		
+//		driver.get("https://www.snapdeal.com/");
+//		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+//		Actions a = new Actions(driver);
+//		
+//		WebElement findElement = driver.findElement(By.xpath("//span[contains(text(),'Mobile & Accessories')]"));
+//		
+//		a.moveToElement(findElement).perform();
+//		
+//		WebElement findElement2 = driver.findElement(By.xpath("//span[contains(text(),'Printed Back Covers')]"));
+//		
+//		a.click(findElement2).perform();
+//		
 		
-		WebElement findElement = driver.findElement(By.xpath("//div[@title='Courses']"));
-		
-		a.moveToElement(findElement).perform();
-		
-		
-		WebElement findElement2 = driver.findElement(By.xpath("//div[@title='Software Testing']"));
-		
-		a.moveToElement(findElement2).perform();
-		
-		WebElement findElement3 = driver.findElement(By.xpath("//span[contains(text(),'Selenium Certification')]"));
-		
-		a.click(findElement3).perform();
+
 	}
 }
