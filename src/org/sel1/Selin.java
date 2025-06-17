@@ -255,6 +255,6 @@ public class Selin {
 //		a.click(findElement2).perform();
 //		
 		
-
+		driver.quit();
 	}
 }
